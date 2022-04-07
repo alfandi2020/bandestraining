@@ -249,7 +249,7 @@
 
                                 <li class="menu-item  "><a href="<?= base_url()?>">Produk</a></li>
 
-                                <li class="menu-item"><a href="<?= base_url()?>assets/products.html">Profesional Members Tim</a></li>
+                                <li class="menu-item"><a href="<?= base_url()?>">Promembed</a></li>
 
                                 <li class="menu-item"><a href="<?= base_url('about')?>">About Us</a></li>
 
