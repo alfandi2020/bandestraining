@@ -157,10 +157,21 @@
 															</div>
 															<div class="row" style="margin-right: 0px;">
 																<div class="col-xl">
-																	<h4>INTIAL</h4>
+																	<h4 style="margin-left:90px;">INTIAL</h4>
+																	<div>
+																		<div class="diagonal"></div>
+																		<div class="diagonal2"></div>
+																			<h4 style="margin-left: 64px;">BASIC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JUNIOR</h4>
+																	</div>
 																</div>
 																<div class="col-xl">
-																	<h4>RECURENT</h4>
+																	<h4 style="margin-left:90px;">RECURENT</h4>
+																	<div>
+																		<div class="diagonal"></div>
+																		<div class="diagonal2"></div>
+																		<h4 style="margin-left: 64px;">BASIC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JUNIOR</h4>
+
+																	</div>
 																</div>
 															</div>
 														</div>
