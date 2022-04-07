@@ -24,8 +24,9 @@
 
 	<link rel="stylesheet" href="<?= base_url()?>assets/css/fontello/css/fontello.css"/>
 
-	<link rel="stylesheet" href="<?= base_url() ?>assets/font-awesome-4.7.0/css/font-awesome.css"/>
-
+	<!-- <link rel="stylesheet" href="<?= base_url() ?>assets/font-awesome-4.7.0/css/font-awesome.css"/> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" /> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="<?= base_url()?>assets/js/rs-plugin/settings.css" type="text/css" media="all" />
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -73,7 +74,72 @@
     <link rel="stylesheet" href="<?= base_url()?>assets/css/slider-style.css" type="text/css" media="all" />
 
 	<link rel="stylesheet" href="<?= base_url()?>assets/css/custom-style.css" type="text/css" media="all" />
+<style>
+.diagonal{
+    height:100px;
+    width:100px;
+    position:relative;
+ }
 
+.diagonal:after{
+    content:"";
+    position:absolute;
+    border-top:2px solid black;
+    width:120%;
+    margin-left:140px;
+    transform: rotate(130deg);
+    transform-origin: 0% 0%;
+    top:10px;
+}
+.diagonal2{
+    /* height:100px; */
+    width:100px;
+    position:relative;
+ }
+
+.diagonal2:after{
+    content:"";
+    position:absolute;
+    border-top:2px solid black;
+    width:118%;
+    margin-left:215px;
+    transform: rotate(-130deg);
+    transform-origin: 0% 0%;
+    top:0px;
+}
+.diagonal3{
+    height:100px;
+    width:100px;
+    position:relative;
+ }
+
+.diagonal3:after{
+    content:"";
+    position:absolute;
+    border-top:2px solid black;
+    width:118%;
+    margin-left:240px;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    top:0px;
+}
+.diagonal4{
+    height:100px;
+    width:100px;
+    position:relative;
+ }
+
+.diagonal4:after{
+    content:"";
+    position:absolute;
+    border-top:2px solid black;
+    width:118%;
+    margin-left:140px;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    top:0px;
+}
+</style>
 </head>
 
 

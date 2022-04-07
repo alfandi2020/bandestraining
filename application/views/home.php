@@ -139,6 +139,285 @@
 
 										<div class="sc_content content_wrap margin_top_2_5em_imp margin_bottom_2_5em_imp">
 
+											<h2 class="sc_title sc_title_regular sc_align_center margin_top_0 margin_bottom_085em text_center"><b>MANDATORI</b></h2>
+
+											<div class="sc_blogger layout_courses_3 template_portfolio sc_blogger_horizontal no_description text_center">
+
+												<div class="d-flex justify-content-center" data-columns="4">
+
+													<!-- Courses item -->
+
+													<div class="isotope_item isotope_item_courses col-xl">
+														<div class="post_item post_item_courses odd">
+															<i class="fa-solid fa-star" style="font-size:50px;color:#f8b332;"></i>
+															<h3>AVSEC</h3>
+															<div style="margin-left:100px;">
+																<div class="diagonal"></div>
+																<div class="diagonal2"></div>
+															</div>
+															<div class="row" style="margin-right: 0px;">
+																<div class="col-xl">
+																	<h4>INTIAL</h4>
+																</div>
+																<div class="col-xl">
+																	<h4>RECURENT</h4>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="isotope_item isotope_item_courses col-xl">
+														<div class="post_item post_item_courses odd">
+															<i class="fa-solid fa-star" style="font-size:50px;color:#f8b332;"></i>
+															<h3>DG</h3>
+															<div class="diagonal3"></div>
+															<h4>ON PROGRESS</h4>
+
+														</div>
+													</div>
+													<!-- /Courses item -->
+
+													<!-- <div class="isotope_item isotope_item_courses isotope_column_2">
+
+														<div class="post_item post_item_courses odd">
+
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+
+																<div class="post_featured img">
+
+																	<a href="free-course.html">
+
+																		<img alt="" src="<?= base_url()?>assets/images/3-01.png">
+
+																	</a>
+
+																 <h6 class="post_title">
+
+																		<a href="#">KURIKULUM DAN SILABUS PELATIHAN PERPANJANGAN PENGAMANAN PENERBANGAN TINGKAT JUNIOR</a>
+
+																	</h6>
+
+																	<div class="post_descr">
+
+																		<div class="post_price">
+
+																			<span class="post_price_value">Free!</span>
+
+																		</div> 
+
+																		<div class="post_category">
+
+																			<a href="product-category.html">PELATIHAN PERPANJANGAN PENGAMANAN TINGKAT JUNIOR</a>
+
+																		</div>
+
+																	</div>
+
+																</div>
+
+																<div class="post_info_wrap info">
+
+																	<div class="info-back">
+
+																		<h6 class="post_title">
+
+																			<a href="free-course.html">KURIKULUM DAN SILABUS PELATIHAN PERPANJANGAN PENGAMANAN PENERBANGAN TINGKAT JUNIOR</a>
+
+																		</h6>
+
+																		<div class="post_descr">
+
+																			<p>
+
+																				<a href="#">Nunc finibus vestibulum dui a fringilla. Maecenas maximus in massa sit amet maximus.</a>
+
+																			</p> 
+
+																			<div class="post_buttons">
+
+																				<div class="post_button">
+
+																					<a href="free-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+
+																				</div>
+
+																			</div>
+
+																		</div>
+
+																	</div>
+
+																</div>
+
+															</div>
+
+														</div>
+
+													</div> -->
+
+													
+
+												</div>
+
+											</div>
+
+											<!-- <a href="courses-streampage.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_menu sc_button_size_small aligncenter sc_button_iconed icon-graduation margin_top_1em margin_bottom_4 widht_12em">VIEW ALL COURSES</a> -->
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+							<br><br>
+							<div class="d-flex justify-content-center mt-5" data-animation="animated fadeInUp normal">
+
+								<div class="sc_section_overlay">
+
+									<div class="sc_section_content">
+
+										<div class="sc_content content_wrap margin_top_2_5em_imp margin_bottom_2_5em_imp">
+
+											<h2 class="sc_title sc_title_regular sc_align_center margin_top_0 margin_bottom_085em text_center"><b>NON MANDATORI</b></h2>
+
+											<div class="sc_blogger layout_courses_3 template_portfolio sc_blogger_horizontal no_description text_center">
+
+												<div class="d-flex justify-content-center" data-columns="4">
+
+													<!-- Courses item -->
+
+													<div class="isotope_item isotope_item_courses col-xl">
+														<div class="post_item post_item_courses odd">
+															<i class="fa-solid fa-star" style="font-size:50px;color:#f8b332;"></i>
+															<h3>AWARENESS</h3>
+															<div class="diagonal4"></div>
+															<ul style="text-align: left; margin-left:100px;">
+																<h4><li>Security</li></h4>
+																<h4><li>DG</li></h4>
+																<h4><li>Cargo</li></h4>
+															</ul>
+															
+														</div>
+													</div>
+													<div class="isotope_item isotope_item_courses col-xl">
+														<div class="post_item post_item_courses odd">
+															<i class="fa-solid fa-star" style="font-size:50px;color:#f8b332;"></i>
+															<h3>CARGO</h3>
+															<div class="diagonal4"></div>
+															<h4>Basic Cargo</h4>
+														</div>
+													</div>
+													<div class="isotope_item isotope_item_courses col-xl">
+														<div class="post_item post_item_courses odd">
+															<i class="fa-solid fa-star" style="font-size:50px;color:#f8b332;"></i>
+															<h3>AIRLINES STAF</h3>
+																<div class="diagonal4"></div>
+															<h4>GROUND STAFF</h4>
+														</div>
+													</div>
+													<!-- /Courses item -->
+
+													<!-- <div class="isotope_item isotope_item_courses isotope_column_2">
+
+														<div class="post_item post_item_courses odd">
+
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+
+																<div class="post_featured img">
+
+																	<a href="free-course.html">
+
+																		<img alt="" src="<?= base_url()?>assets/images/3-01.png">
+
+																	</a>
+
+																 <h6 class="post_title">
+
+																		<a href="#">KURIKULUM DAN SILABUS PELATIHAN PERPANJANGAN PENGAMANAN PENERBANGAN TINGKAT JUNIOR</a>
+
+																	</h6>
+
+																	<div class="post_descr">
+
+																		<div class="post_price">
+
+																			<span class="post_price_value">Free!</span>
+
+																		</div> 
+
+																		<div class="post_category">
+
+																			<a href="product-category.html">PELATIHAN PERPANJANGAN PENGAMANAN TINGKAT JUNIOR</a>
+
+																		</div>
+
+																	</div>
+
+																</div>
+
+																<div class="post_info_wrap info">
+
+																	<div class="info-back">
+
+																		<h6 class="post_title">
+
+																			<a href="free-course.html">KURIKULUM DAN SILABUS PELATIHAN PERPANJANGAN PENGAMANAN PENERBANGAN TINGKAT JUNIOR</a>
+
+																		</h6>
+
+																		<div class="post_descr">
+
+																			<p>
+
+																				<a href="#">Nunc finibus vestibulum dui a fringilla. Maecenas maximus in massa sit amet maximus.</a>
+
+																			</p> 
+
+																			<div class="post_buttons">
+
+																				<div class="post_button">
+
+																					<a href="free-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+
+																				</div>
+
+																			</div>
+
+																		</div>
+
+																	</div>
+
+																</div>
+
+															</div>
+
+														</div>
+
+													</div> -->
+
+													
+
+												</div>
+
+											</div>
+
+											<!-- <a href="courses-streampage.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_menu sc_button_size_small aligncenter sc_button_iconed icon-graduation margin_top_1em margin_bottom_4 widht_12em">VIEW ALL COURSES</a> -->
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+							<div class="d-flex justify-content-center" data-animation="animated fadeInUp normal">
+
+								<div class="sc_section_overlay">
+
+									<div class="sc_section_content">
+
+										<div class="sc_content content_wrap margin_top_2_5em_imp margin_bottom_2_5em_imp">
+
 											<h2 class="sc_title sc_title_regular sc_align_center margin_top_0 margin_bottom_085em text_center">Recurrent Course</h2>
 
 											<div class="sc_blogger layout_courses_3 template_portfolio sc_blogger_horizontal no_description text_center">

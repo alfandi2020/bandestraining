@@ -653,13 +653,13 @@ input[type="checkbox"]:checked + label:before {
 }
 
 /* Responsive menu */
-.bg_tint_light .menu_main_responsive_button {		color:#1dbb90; }
+.bg_tint_light .menu_main_responsive_button {		color:#302b63; }
 .bg_tint_light .menu_main_responsive_button:hover {	color:#fcb72d; }
 .bg_tint_dark .menu_main_responsive_button {		color:#ffffff; }
 .bg_tint_dark .menu_main_responsive_button:hover {	color:#ffffff; }
 
 .menu_main_wrap .menu_main_nav_area .menu_main_responsive {
-	background-color:#1dbb90;
+	background-color:#302b63;
 	-webkit-border-radius: 6px;
 	   -moz-border-radius: 6px;
 			border-radius: 6px;
@@ -1601,7 +1601,7 @@ input[type="checkbox"]:checked + label:before {
 /* Scroll to top */
 .scroll_to_top {
 	color: #fff;
-	background-color:#3371f8;
+	background-color:#fcb72d;
 	border:none;
 	-webkit-border-radius: 6px;
 	   -moz-border-radius: 6px;
@@ -1612,7 +1612,7 @@ input[type="checkbox"]:checked + label:before {
 }
 .scroll_to_top:hover {
 	color: #fff;
-	background-color:#fcb72d;
+	background-color:#302b63;
 }
 .custom_options #co_toggle {
 	background-color:#ffb20e !important;
