@@ -49,10 +49,10 @@
 	<!--<script type="text/javascript" src="<?= base_url()?>assets/js/core.customizer/front.customizer.min.js"></script>
 	<script type="text/javascript" src="<?= base_url()?>assets/js/skin.customizer.min.js"></script>-->
    <script>
-    $('.main_menu_nav li').on('click', function(){
-        $('#main_menu li.current-menu-item').removeClass('current-menu-item');
-        $(this).addClass('current-menu-item');
-    });
+    // $('.main_menu_nav li').on('click', function(){
+    //     $('#main_menu li.current-menu-item').removeClass('current-menu-item');
+    //     $(this).addClass('current-menu-item');
+    // });
    </script>
 
 </body>
