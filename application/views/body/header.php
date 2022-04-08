@@ -254,7 +254,7 @@
                                 <li class="menu-item"><a href="<?= base_url('about')?>">About Us</a></li>
 
                                 <li class="menu-item"><a href="<?= base_url('contact')?>">Contact Us</a></li>
-                                <li class="menu-item"><a target="_blank" href="https://srv151.niagahoster.com:2096">Login</a></li>
+                                <li class="menu-item current-menu-item page_item current_page_item" style="background-color: #302b63;"><a  target="_blank" href="https://srv151.niagahoster.com:2096">Login</a></li>
 
 								<!-- <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent"><a href="<?= base_url()?>assets/index.html">Homepage</a>
 
