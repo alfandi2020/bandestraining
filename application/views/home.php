@@ -161,7 +161,7 @@
 																	<div>
 																		<div class="diagonal"></div>
 																		<div class="diagonal2"></div>
-																			<h4 style="margin-left: 55px;">BASIC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JUNIOR</h4>
+																			<h4 style="margin-left: 55px;">BASIC &nbsp;&nbsp;&nbsp;&nbsp; JUNIOR</h4>
 																	</div>
 																</div>
 																<div class="col-xl">
@@ -169,7 +169,7 @@
 																	<div>
 																		<div class="diagonal"></div>
 																		<div class="diagonal2"></div>
-																		<h4 style="margin-left: 63px;">BASIC &nbsp;&nbsp;&nbsp;&nbsp; JUNIOR</h4>
+																		<h4 style="margin-left: 63px;">BASIC &nbsp;&nbsp;&nbsp; JUNIOR</h4>
 
 																	</div>
 																</div>
