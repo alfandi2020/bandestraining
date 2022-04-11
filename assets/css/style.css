@@ -1876,8 +1876,8 @@ blockquote cite {
 	position:absolute;
 	left: 0;
 	right: 0;
-	bottom:0;
-	height:25%;
+	bottom: 20px;;
+	/* height:25%; */
 	padding: 10px 16px;
 	overflow:hidden;
 }

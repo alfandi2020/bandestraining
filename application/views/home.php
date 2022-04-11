@@ -130,8 +130,596 @@
 
 							<!-- Courses section -->
 
-
-							<div class="d-flex justify-content-center" data-animation="animated fadeInUp normal">
+							<div class="sc_section accent_top bg_tint_light sc_bg1" data-animation="animated fadeInUp normal">
+								<div class="sc_section_overlay">
+									<div class="sc_section_content">
+										<div class="sc_content content_wrap margin_top_2_5em_imp margin_bottom_2_5em_imp">
+											<h2 class="sc_title sc_title_regular sc_align_center margin_top_0 margin_bottom_085em text_center">MANDATORI</h2>
+											<div class="sc_blogger layout_courses_3 template_portfolio sc_blogger_horizontal no_description">
+												<div class="isotope_wrap" data-columns="3">
+													<!-- Courses item -->
+													<div class="isotope_item isotope_item_courses isotope_column_2">
+														<div class="post_item post_item_courses odd">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="<?= base_url()?>assets/images/avsec.jpg">
+																	</a>
+																	<!-- <h4 class="post_title">
+																		<a href="paid-course.html">Principles of Written English, Part 2</a>
+																	</h4> -->
+																	<div class="post_descr">
+																		<!-- <div class="post_price">
+																			<span class="post_price_value">$85</span>
+																			<span class="post_price_period">monthly</span>
+																		</div> -->
+																		<div class="post_category">
+																			<a href="product-category.html"><h4 style="color: white;">AVSEC</h4></a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">Principles of Written English, Part 2</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p>
+																				<a href="paid-course.html">Nam id leo massa. Cras at condimentum nisi, vulputate ultrices turpis.</a>
+																			</p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																				<div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<div class="isotope_item isotope_item_courses isotope_column_2">
+														<div class="post_item post_item_courses even">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="<?= base_url() ?>assets/images/avsec2.jpg">
+																	</a>
+																	<!-- <h4 class="post_title">
+																		<a href="paid-course.html">Entrepreneurship 101: Who is your customer?</a>
+																	</h4> -->
+																	<div class="post_descr">
+																		<!-- <div class="post_price">
+																			<span class="post_price_value">$195</span><span class="post_price_period">monthly</span>
+																		</div> -->
+																		<div class="post_category">
+																			<a href="product-category.html"><h4 style="color: white;">Dangeraous Good (DG)</h4></a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">Entrepreneurship 101:  Who is your customer?</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p>
+																				<a href="paid-course.html">Quisque a nulla eget ante vestibulum lacinia eu quis massa.</a>
+																			</p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																				<!-- <div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div> -->
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<!-- <div class="isotope_item isotope_item_courses isotope_column_3">
+														<div class="post_item post_item_courses odd">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="free-course.html">
+																		<img alt="" src="http://via.placeholder.com/400x400">
+																	</a>
+																	<h4 class="post_title">
+																		<a href="#">Evaluating Social Programs</a>
+																	</h4>
+																	<div class="post_descr">
+																		<div class="post_price">
+																			<span class="post_price_value">Free!</span>
+																		</div>
+																		<div class="post_category">
+																			<a href="product-category.html">Social</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="free-course.html">Evaluating Social  Programs</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p>
+																				<a href="#">Nunc finibus vestibulum dui a fringilla. Maecenas maximus in massa sit amet maximus.</a>
+																			</p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="free-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div> -->
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<!-- <div class="isotope_item isotope_item_courses isotope_column_3">
+														<div class="post_item post_item_courses even">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="http://via.placeholder.com/400x400">
+																	</a>
+																	<h4 class="post_title">
+																		<a href="#">Principles of Written English, Part 1</a>
+																	</h4>
+																	<div class="post_descr">
+																		<div class="post_price">
+																			<span class="post_price_value">$85</span>
+																		</div>
+																		<div class="post_category">
+																			<a href="product-category.html">Language</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">Principles of Written English, Part 1</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p>
+																				<a href="paid-course.html">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a>
+																			</p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																				<div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div> -->
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<!-- <div class="isotope_item isotope_item_courses isotope_column_3">
+														<div class="post_item post_item_courses odd">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="http://via.placeholder.com/400x400"></a>
+																	<h4 class="post_title">
+																		<a href="paid-course.html">Introduction to Biomedical Imaging</a>
+																	</h4>
+																	<div class="post_descr">
+																		<div class="post_price">
+																			<span class="post_price_value">$400</span>
+																		</div>
+																		<div class="post_category">
+																			<a href="product-category.html">Medicine</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">Introduction to Biomedical Imaging</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p><a href="paid-course.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																				<div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div> -->
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<!-- <div class="isotope_item isotope_item_courses isotope_column_3">
+														<div class="post_item post_item_courses even last">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="http://via.placeholder.com/400x400">
+																	</a>
+																	<h4 class="post_title">
+																		<a href="paid-course.html">Introduction to Computer  Science</a>
+																	</h4>
+																	<div class="post_descr">
+																		<div class="post_price">
+																			<span class="post_price_value">$120</span>
+																			<span class="post_price_period">monthly</span>
+																		</div>
+																		<div class="post_category">
+																			<a href="product-category.html">Computers</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">Introduction to Computer  Science</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p><a href="paid-course.html">Sed interdum felis diam, vitae rutrum urna laoreet vehicula.</a></p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																				<div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div> -->
+													<!-- /Courses item -->
+												</div>
+											</div>
+											<!-- <a href="courses-streampage.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_menu sc_button_size_small aligncenter sc_button_iconed icon-graduation margin_top_1em margin_bottom_4 widht_12em">VIEW ALL COURSES</a> -->
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="sc_section accent_top bg_tint_light sc_bg1" data-animation="animated fadeInUp normal">
+								<div class="sc_section_overlay">
+									<div class="sc_section_content">
+										<div class="sc_content content_wrap margin_top_2_5em_imp margin_bottom_2_5em_imp">
+											<h2 class="sc_title sc_title_regular sc_align_center margin_top_0 margin_bottom_085em text_center">NON MANDATORI</h2>
+											<div class="sc_blogger layout_courses_3 template_portfolio sc_blogger_horizontal no_description">
+												<div class="isotope_wrap" data-columns="3">
+													<!-- Courses item -->
+													<div class="isotope_item isotope_item_courses isotope_column_3">
+														<div class="post_item post_item_courses odd">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="https://img.freepik.com/free-photo/airport-security-officer-checking-package-passenger_107420-95845.jpg?w=1800">
+																	</a>
+																	<!-- <h4 class="post_title">
+																		<a href="paid-course.html">Principles of Written English, Part 2</a>
+																	</h4> -->
+																	<div class="post_descr">
+																		<!-- <div class="post_price">
+																			<span class="post_price_value">$85</span>
+																			<span class="post_price_period">monthly</span>
+																		</div> -->
+																		<div class="post_category">
+																			<a href="product-category.html"><h4 style="color: white;">AWARENESS</h4></a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">Principles of Written English, Part 2</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p>
+																				<a href="paid-course.html">Nam id leo massa. Cras at condimentum nisi, vulputate ultrices turpis.</a>
+																			</p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																				<div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<div class="isotope_item isotope_item_courses isotope_column_3">
+														<div class="post_item post_item_courses even">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="<?= base_url()?>assets/images/avsec3.jpg">
+																	</a>
+																	<!-- <h4 class="post_title">
+																		<a href="paid-course.html">Entrepreneurship 101: Who is your customer?</a>
+																	</h4> -->
+																	<div class="post_descr">
+																		<!-- <div class="post_price">
+																			<span class="post_price_value">$195</span><span class="post_price_period">monthly</span>
+																		</div> -->
+																		<div class="post_category">
+																			<a href="product-category.html"><h4 style="color: white;">CARGO</h4></a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">Entrepreneurship 101:  Who is your customer?</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p>
+																				<a href="paid-course.html">Quisque a nulla eget ante vestibulum lacinia eu quis massa.</a>
+																			</p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																				<!-- <div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div> -->
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<div class="isotope_item isotope_item_courses isotope_column_3">
+														<div class="post_item post_item_courses even">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="https://img.freepik.com/free-photo/airport-security-officer-using-hand-held-metal-detector-check-commuter_107420-95853.jpg?t=st=1649648040~exp=1649648640~hmac=cd0b4c9a640edc32ab6b68bf2068c115700268dbbf35a6ad7debe3160d9dc516&w=1800">
+																	</a>
+																	<!-- <h4 class="post_title">
+																		<a href="paid-course.html">Entrepreneurship 101: Who is your customer?</a>
+																	</h4> -->
+																	<div class="post_descr">
+																		<!-- <div class="post_price">
+																			<span class="post_price_value">$195</span><span class="post_price_period">monthly</span>
+																		</div> -->
+																		<div class="post_category">
+																			<a href="product-category.html"><h4 style="color: white;">AIRLINES STAFF</h4></a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">Entrepreneurship 101:  Who is your customer?</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p>
+																				<a href="paid-course.html">Quisque a nulla eget ante vestibulum lacinia eu quis massa.</a>
+																			</p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																				<!-- <div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div> -->
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<!-- <div class="isotope_item isotope_item_courses isotope_column_3">
+														<div class="post_item post_item_courses odd">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="free-course.html">
+																		<img alt="" src="http://via.placeholder.com/400x400">
+																	</a>
+																	<h4 class="post_title">
+																		<a href="#">Evaluating Social Programs</a>
+																	</h4>
+																	<div class="post_descr">
+																		<div class="post_price">
+																			<span class="post_price_value">Free!</span>
+																		</div>
+																		<div class="post_category">
+																			<a href="product-category.html">Social</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="free-course.html">Evaluating Social  Programs</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p>
+																				<a href="#">Nunc finibus vestibulum dui a fringilla. Maecenas maximus in massa sit amet maximus.</a>
+																			</p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="free-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div> -->
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<!-- <div class="isotope_item isotope_item_courses isotope_column_3">
+														<div class="post_item post_item_courses even">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="http://via.placeholder.com/400x400">
+																	</a>
+																	<h4 class="post_title">
+																		<a href="#">Principles of Written English, Part 1</a>
+																	</h4>
+																	<div class="post_descr">
+																		<div class="post_price">
+																			<span class="post_price_value">$85</span>
+																		</div>
+																		<div class="post_category">
+																			<a href="product-category.html">Language</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">Principles of Written English, Part 1</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p>
+																				<a href="paid-course.html">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a>
+																			</p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																				<div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div> -->
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<!-- <div class="isotope_item isotope_item_courses isotope_column_3">
+														<div class="post_item post_item_courses odd">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="http://via.placeholder.com/400x400"></a>
+																	<h4 class="post_title">
+																		<a href="paid-course.html">Introduction to Biomedical Imaging</a>
+																	</h4>
+																	<div class="post_descr">
+																		<div class="post_price">
+																			<span class="post_price_value">$400</span>
+																		</div>
+																		<div class="post_category">
+																			<a href="product-category.html">Medicine</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">Introduction to Biomedical Imaging</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p><a href="paid-course.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																				<div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div> -->
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<!-- <div class="isotope_item isotope_item_courses isotope_column_3">
+														<div class="post_item post_item_courses even last">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="http://via.placeholder.com/400x400">
+																	</a>
+																	<h4 class="post_title">
+																		<a href="paid-course.html">Introduction to Computer  Science</a>
+																	</h4>
+																	<div class="post_descr">
+																		<div class="post_price">
+																			<span class="post_price_value">$120</span>
+																			<span class="post_price_period">monthly</span>
+																		</div>
+																		<div class="post_category">
+																			<a href="product-category.html">Computers</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">Introduction to Computer  Science</a>
+																		</h4>
+																		<div class="post_descr">
+																			<p><a href="paid-course.html">Sed interdum felis diam, vitae rutrum urna laoreet vehicula.</a></p>
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																				</div>
+																				<div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div> -->
+													<!-- /Courses item -->
+												</div>
+											</div>
+											<!-- <a href="courses-streampage.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_menu sc_button_size_small aligncenter sc_button_iconed icon-graduation margin_top_1em margin_bottom_4 widht_12em">VIEW ALL COURSES</a> -->
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							<!-- <div class="d-flex justify-content-center" data-animation="animated fadeInUp normal">
 
 								<div class="sc_section_overlay">
 
@@ -144,8 +732,6 @@
 											<div class="sc_blogger layout_courses_3 template_portfolio sc_blogger_horizontal no_description text_center">
 
 												<div class="d-flex justify-content-center" data-columns="4">
-
-													<!-- Courses item -->
 
 													<div class="isotope_item isotope_item_courses col-xl">
 														<div class="post_item post_item_courses odd">
@@ -185,93 +771,11 @@
 
 														</div>
 													</div>
-													<!-- /Courses item -->
-
-													<!-- <div class="isotope_item isotope_item_courses isotope_column_2">
-
-														<div class="post_item post_item_courses odd">
-
-															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
-
-																<div class="post_featured img">
-
-																	<a href="free-course.html">
-
-																		<img alt="" src="<?= base_url()?>assets/images/3-01.png">
-
-																	</a>
-
-																 <h6 class="post_title">
-
-																		<a href="#">KURIKULUM DAN SILABUS PELATIHAN PERPANJANGAN PENGAMANAN PENERBANGAN TINGKAT JUNIOR</a>
-
-																	</h6>
-
-																	<div class="post_descr">
-
-																		<div class="post_price">
-
-																			<span class="post_price_value">Free!</span>
-
-																		</div> 
-
-																		<div class="post_category">
-
-																			<a href="product-category.html">PELATIHAN PERPANJANGAN PENGAMANAN TINGKAT JUNIOR</a>
-
-																		</div>
-
-																	</div>
-
-																</div>
-
-																<div class="post_info_wrap info">
-
-																	<div class="info-back">
-
-																		<h6 class="post_title">
-
-																			<a href="free-course.html">KURIKULUM DAN SILABUS PELATIHAN PERPANJANGAN PENGAMANAN PENERBANGAN TINGKAT JUNIOR</a>
-
-																		</h6>
-
-																		<div class="post_descr">
-
-																			<p>
-
-																				<a href="#">Nunc finibus vestibulum dui a fringilla. Maecenas maximus in massa sit amet maximus.</a>
-
-																			</p> 
-
-																			<div class="post_buttons">
-
-																				<div class="post_button">
-
-																					<a href="free-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
-
-																				</div>
-
-																			</div>
-
-																		</div>
-
-																	</div>
-
-																</div>
-
-															</div>
-
-														</div>
-
-													</div> -->
-
-													
 
 												</div>
 
 											</div>
 
-											<!-- <a href="courses-streampage.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_menu sc_button_size_small aligncenter sc_button_iconed icon-graduation margin_top_1em margin_bottom_4 widht_12em">VIEW ALL COURSES</a> -->
 
 										</div>
 
@@ -281,6 +785,7 @@
 
 							</div>
 							<br><br>
+							
 							<div class="d-flex justify-content-center mt-5" data-animation="animated fadeInUp normal">
 
 								<div class="sc_section_overlay">
@@ -295,7 +800,6 @@
 
 												<div class="d-flex justify-content-center" data-columns="4">
 
-													<!-- Courses item -->
 
 													<div class="isotope_item isotope_item_courses col-xl">
 														<div class="post_item post_item_courses odd">
@@ -326,93 +830,10 @@
 															<h4>GROUND STAFF</h4>
 														</div>
 													</div>
-													<!-- /Courses item -->
-
-													<!-- <div class="isotope_item isotope_item_courses isotope_column_2">
-
-														<div class="post_item post_item_courses odd">
-
-															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
-
-																<div class="post_featured img">
-
-																	<a href="free-course.html">
-
-																		<img alt="" src="<?= base_url()?>assets/images/3-01.png">
-
-																	</a>
-
-																 <h6 class="post_title">
-
-																		<a href="#">KURIKULUM DAN SILABUS PELATIHAN PERPANJANGAN PENGAMANAN PENERBANGAN TINGKAT JUNIOR</a>
-
-																	</h6>
-
-																	<div class="post_descr">
-
-																		<div class="post_price">
-
-																			<span class="post_price_value">Free!</span>
-
-																		</div> 
-
-																		<div class="post_category">
-
-																			<a href="product-category.html">PELATIHAN PERPANJANGAN PENGAMANAN TINGKAT JUNIOR</a>
-
-																		</div>
-
-																	</div>
-
-																</div>
-
-																<div class="post_info_wrap info">
-
-																	<div class="info-back">
-
-																		<h6 class="post_title">
-
-																			<a href="free-course.html">KURIKULUM DAN SILABUS PELATIHAN PERPANJANGAN PENGAMANAN PENERBANGAN TINGKAT JUNIOR</a>
-
-																		</h6>
-
-																		<div class="post_descr">
-
-																			<p>
-
-																				<a href="#">Nunc finibus vestibulum dui a fringilla. Maecenas maximus in massa sit amet maximus.</a>
-
-																			</p> 
-
-																			<div class="post_buttons">
-
-																				<div class="post_button">
-
-																					<a href="free-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
-
-																				</div>
-
-																			</div>
-
-																		</div>
-
-																	</div>
-
-																</div>
-
-															</div>
-
-														</div>
-
-													</div> -->
-
-													
-
 												</div>
 
 											</div>
 
-											<!-- <a href="courses-streampage.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_menu sc_button_size_small aligncenter sc_button_iconed icon-graduation margin_top_1em margin_bottom_4 widht_12em">VIEW ALL COURSES</a> -->
 
 										</div>
 
@@ -420,7 +841,9 @@
 
 								</div>
 
-							</div>
+							</div> -->
+
+							
 							<div class="d-flex justify-content-center" data-animation="animated fadeInUp normal">
 
 								<div class="sc_section_overlay">

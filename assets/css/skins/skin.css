@@ -999,8 +999,9 @@ input[type="checkbox"]:checked + label:before {
 }
 
 .isotope_item_courses .post_featured .post_descr {
-	background-color:#ffffff;
-}
+	/* background-color: #3c352b; */
+	/* opacity: 0.5; */
+  }
 .isotope_item_courses .post_info_wrap .post_button .sc_button {
 	color: #e05100;
 	background-color:#ffffff;
