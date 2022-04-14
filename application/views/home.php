@@ -444,9 +444,11 @@
 																<div class="post_info_wrap info">
 																	<div class="info-back">
 																		<h4 class="post_title">
-																			<a href="#">Security</a><br>
-																			<a href="#">DG</a><br>
-																			<a href="#">Cargo</a>
+																			<ul>
+																				<li><a href="#">Security</a></li>
+																				<li><a href="#">DG</a></li>
+																				<li><a href="#">Cargo</a></li>
+																			</ul>
 																		</h4>
 																		<div class="post_descr">
 																			<!-- <p>
