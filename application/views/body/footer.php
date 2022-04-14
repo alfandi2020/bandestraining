@@ -45,7 +45,8 @@
     <script type="text/javascript" src="<?= base_url()?>assets/js/swiper/idangerous.swiper-2.7.min.js"></script>
     <script type="text/javascript" src="<?= base_url()?>assets/js/swiper/idangerous.swiper.scrollbar-2.4.min.js"></script>
     <script type="text/javascript" src="<?= base_url()?>assets/js/diagram/chart.min.js"></script>
-    
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
 	<!--<script type="text/javascript" src="<?= base_url()?>assets/js/core.customizer/front.customizer.min.js"></script>
 	<script type="text/javascript" src="<?= base_url()?>assets/js/skin.customizer.min.js"></script>-->
    <script>

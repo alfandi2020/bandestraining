@@ -3997,7 +3997,7 @@
 	overflow:hidden;
 }
 .ih-item.square.effect_dir .info {
-	background: #333333;
+	/* background: #333333; */
 	top:100%;
 }
 .ih-item.square.effect_dir .info .post_title {

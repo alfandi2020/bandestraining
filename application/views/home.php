@@ -161,24 +161,30 @@
 																<div class="post_info_wrap info">
 																	<div class="info-back">
 																		<h4 class="post_title">
-																			<a href="paid-course.html">Principles of Written English, Part 2</a>
+																			<a href="paid-course.html">AVSEC</a>
 																		</h4>
 																		<div class="post_descr">
-																			<p>
+																			<!-- <p>
 																				<a href="paid-course.html">Nam id leo massa. Cras at condimentum nisi, vulputate ultrices turpis.</a>
-																			</p>
+																			</p> -->
 																			<div class="post_buttons">
 																				<div class="post_button">
-																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+																					<a class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">INTIAL</a>
 																				</div>
 																				<div class="post_button">
-																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																					<a class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small" data-toggle="collapse" href="#recurent1" role="button" aria-expanded="false" aria-controls="collapseExample">RECURENT</a>
 																				</div>
 																			</div>
 																		</div>
+																		
 																	</div>
 																</div>
 															</div>
+															<div class="collapse" id="recurent1">
+																	<div class="card card-body" style="border-radius: 10px;">
+																		INTIAL
+																	</div>
+																</div>	
 														</div>
 													</div>
 													<!-- /Courses item -->
@@ -440,9 +446,9 @@
 																				<a href="paid-course.html">Nam id leo massa. Cras at condimentum nisi, vulputate ultrices turpis.</a>
 																			</p>
 																			<div class="post_buttons">
-																				<div class="post_button">
+																				<!-- <div class="post_button">
 																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
-																				</div>
+																				</div> -->
 																				<div class="post_button">
 																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
 																				</div>

@@ -227,7 +227,7 @@ a.user_color:hover {color: #cc8b00; }
 .post_content.ih-item.square.effect13.colored .info,
 .post_content.ih-item.square.effect_dir.colored .info,
 .post_content.ih-item.square.effect_shift.colored .info {
-	background: rgba(29,187,144,0.6);
+	/* background: rgba(29,187,144,0.6); */
 	z-index: 100;
 }
 
@@ -949,7 +949,7 @@ input[type="checkbox"]:checked + label:before {
 .isotope_item_courses .post_featured .post_title,
 .isotope_item_courses .post_content.ih-item.square.colored .info {
 	color: #ffffff;
-	background-color:#1eaace;
+	/* background-color:#1eaace; */
 }
 .isotope_item_courses .post_featured .post_title a {
 	color: #ffffff;
@@ -960,7 +960,7 @@ input[type="checkbox"]:checked + label:before {
 .isotope_item_courses:nth-child(5n+4) .post_featured .post_mark_new,
 .isotope_item_courses:nth-child(5n+4) .post_featured .post_title,
 .isotope_item_courses:nth-child(5n+4) .post_content.ih-item.colored .info {
-	background-color:#1dbb90;
+	/* background-color:#1dbb90; */
 }
 .isotope_item_courses:nth-child(5n+3) .post_featured .post_mark_new,
 .isotope_item_courses:nth-child(5n+3) .post_featured .post_title,
@@ -968,14 +968,14 @@ input[type="checkbox"]:checked + label:before {
 .isotope_item_courses:nth-child(5n+5) .post_featured .post_mark_new,
 .isotope_item_courses:nth-child(5n+5) .post_featured .post_title,
 .isotope_item_courses:nth-child(5n+5) .post_content.ih-item.colored .info {
-	background-color:#ffb20e;
+	/* background-color:#ffb20e; */
 }
 
 .isotope_item_courses .post_category a,
 .isotope_item_courses .post_rating .reviews_stars_bg,
 .isotope_item_courses .post_rating .reviews_stars_hover,
 .isotope_item_courses .post_rating .reviews_value {
-	color:#1eaace;
+	/* color:#1eaace; */
 }
 .isotope_item_courses:nth-child(5n+2) .post_featured .post_category a,
 .isotope_item_courses:nth-child(5n+4) .post_featured .post_category a,
