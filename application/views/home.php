@@ -161,7 +161,7 @@
 																<div class="post_info_wrap info">
 																	<div class="info-back">
 																		<h4 class="post_title">
-																			<a href="paid-course.html">AVSEC</a>
+																			<a href="paid-course.html">AVSEC </a>
 																		</h4>
 																		<div class="post_descr">
 																			<!-- <p>
@@ -182,12 +182,12 @@
 															</div>
 															<div class="collapse" id="intial1">
 																	<div class="card card-body" style="border-radius: 10px;">
-																		INTIAL
+																	<i class="fa fa-shield"></i> 
 																	</div>
 																</div>	
 															<div class="collapse" id="recurent1">
 																	<div class="card card-body" style="border-radius: 10px;">
-																		Recurent
+																	<i class="fa fa-plane"></i>
 																	</div>
 																</div>	
 														</div>
