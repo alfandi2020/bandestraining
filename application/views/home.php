@@ -894,7 +894,7 @@
 																		<a href="">KURIKULUM DAN SILABUS PELATIHAN PERPANJANGAN PENGAMANAN PENERBANGAN TINGKAT DASAR</a>
 
 																	</h6> -->
-
+																	<br><br><br>
 																	<div class="post_descr">
 
 																		<!-- <div class="post_price">
@@ -907,7 +907,7 @@
 
 																		<div class="post_category">
 
-																			<a href="<?= base_url('home/q1')?>">Dangeraous Good (DG) <br>(Sylabus, Periode, Sertificate, Pricing (Subject To Change)</a>
+																			<a style="color: black;" href="<?= base_url('home/q1')?>">Dangeraous Good (DG) <br>(Sylabus, Periode, Sertificate, Pricing (Subject To Change)</a>
 
 																		</div>
 
@@ -924,7 +924,6 @@
 																			<a href="<?= base_url('home/q1')?>">KURIKULUM DAN SILABUS PELATIHAN PERPANJANGAN PENGAMANAN PENERBANGAN TINGKAT DASAR</a>
 
 																		</h4>
-
 																		<div class="post_descr">
 
 																			<!-- <p>
@@ -983,6 +982,7 @@
 																		<a href="paid-course.html">KURIKULUM DAN SILABUS PELATIHAN PENGAMANAN PENERBANGAN TINGKAT DASAR</a>
 
 																	</h6> -->
+																	<br><br><br>
 
 																	<div class="post_descr">
 
@@ -1183,6 +1183,7 @@
 																		<a href="">KURIKULUM DAN SILABUS PELATIHAN PERPANJANGAN PENGAMANAN PENERBANGAN TINGKAT DASAR</a>
 
 																	</h6> -->
+																	<br><br><br>
 
 																	<div class="post_descr">
 
@@ -1196,7 +1197,7 @@
 
 																		<div class="post_category">
 
-																			<a href="<?= base_url('home/q1')?>">Ground Staff Passenger Handling <br> (Sylabus, Periode, Sertificate, Pricing (Subject To Change)</a>
+																			<a style="color: black;" href="<?= base_url('home/q1')?>">Ground Staff Passenger Handling <br> (Sylabus, Periode, Sertificate, Pricing (Subject To Change)</a>
 
 																		</div>
 
@@ -1272,6 +1273,7 @@
 																		<a href="paid-course.html">KURIKULUM DAN SILABUS PELATIHAN PENGAMANAN PENERBANGAN TINGKAT DASAR</a>
 
 																	</h6> -->
+																	<br><br><br>
 
 																	<div class="post_descr">
 
