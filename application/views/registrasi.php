@@ -56,10 +56,11 @@
                 <div class="div-shape">
                     <div class="shape-regis"></div>
                 </div>
+                <div style="border-radius: 10px;border: black solid 4px;width:180px;height:200px;position:absolute;right:200px;margin-top:100px;background-color:white"></div>
+
             </div>
-        <!-- <div style="border: black solid 2px;width:120px;height:150px;float:right;"></div> -->
-            
         </div>
+
         <div>
             <h4><b style="color: #302b63;">PERSONAL INFORMATION</b></h4>
             <div class="row">
@@ -71,14 +72,7 @@
                 </div>
 
             </div>
-            <div class="row">
-                <div class="col-xl-2">
-                    <!-- <span>Nama Lengkap : </span> -->
-                </div>
-                <div class="col-xl-4">
-                    <input style="background-color: #d9d9d9;" type="text" class="form-control">
-                </div>
-            </div>
+            
             <div class="row mt-4">
                 <div class="col-xl-2">
                     <span>Alamat Lengkap : </span>
@@ -94,10 +88,10 @@
                 <div class="col-xl-4">
                     <input style="background-color: #d9d9d9;" type="date" class="form-control">
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-3">
                     <span>Tinggi Badan : </span>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-3">
                     <input style="background-color: #d9d9d9;" type="text" class="form-control">
                 </div>
             </div>
@@ -108,10 +102,10 @@
                 <div class="col-xl-4">
                     <input style="background-color: #d9d9d9;" type="text" class="form-control">
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-3">
                     <span>Berat Badan: </span>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-3">
                     <input style="background-color: #d9d9d9;" type="text" class="form-control">
                 </div>
             </div>
@@ -122,10 +116,10 @@
                 <div class="col-xl-4">
                     <input style="background-color: #d9d9d9;" type="text" class="form-control">
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-3">
                     <span>Nomor Telp/Wa: </span>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-3">
                     <input style="background-color: #d9d9d9;" type="text" class="form-control">
                 </div>
 
@@ -137,10 +131,10 @@
                 <div class="col-xl-4">
                     <input style="background-color: #d9d9d9;" type="text" class="form-control">
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-3">
                     <span>Email : </span>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-3">
                     <input style="background-color: #d9d9d9;" type="text" class="form-control">
                 </div>
 
@@ -152,11 +146,32 @@
                 <div class="col-xl-4">
                     <input style="background-color: #d9d9d9;" type="text" class="form-control">
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-3">
                     <span>Program Pelatihan yang Diminati : </span>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-3">
                     <input style="background-color: #d9d9d9;" type="text" class="form-control">
+                </div>
+            </div>
+            <div class="content row text-center mt-5" style="background-color: #d9d9d9; height:100px;">
+                <h4 class="mt-5">Lets join us to be ready as an staff airlines</h4>
+            </div>
+            <div class="row">
+                <div class="col-xl-4">
+                    <div style="background-color: black;width:200px;height:2px;margin-top:50px;margin-left:100px;"></div>
+                    <p class="text-center" style="color: black;"><b>Register</b></p>
+                </div>
+                <div class="col-xl-4">
+                    <div style="background-color: black;width:200px;height:2px;margin-top:50px;margin-left:100px;"></div>
+                    <p class="text-center" style="color: black;"><b>Officer Signature</b></p>
+                </div>
+                <div class="col-xl-4 mt-1">
+                    <h4>THANK YOU <span style="color: #f2b950;">FOR REGISTRATION</span></h4>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-xl-4" >
+                    <button type="submit" class="btn btn-warning">Submit</button>
                 </div>
             </div>
         </div>
