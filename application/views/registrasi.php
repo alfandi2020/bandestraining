@@ -88,13 +88,13 @@
                         <span>Tanggal Lahir : </span>
                     </div>
                     <div class="col-xl-4">
-                        <input style="background-color: #d9d9d9;" type="date" class="form-control">
+                        <input name="tgl_lahir" style="background-color: #d9d9d9;" type="date" class="form-control">
                     </div>
                     <div class="col-xl-3">
                         <span>Tinggi Badan : </span>
                     </div>
                     <div class="col-xl-3">
-                        <input style="background-color: #d9d9d9;" type="text" class="form-control">
+                        <input name="tinggi_bdn" style="background-color: #d9d9d9;" type="text" class="form-control">
                     </div>
                 </div>
                 <div class="row mt-4">
@@ -102,13 +102,13 @@
                         <span>Agama : </span>
                     </div>
                     <div class="col-xl-4">
-                        <input style="background-color: #d9d9d9;" type="text" class="form-control">
+                        <input name="agama" style="background-color: #d9d9d9;" type="text" class="form-control">
                     </div>
                     <div class="col-xl-3">
                         <span>Berat Badan: </span>
                     </div>
                     <div class="col-xl-3">
-                        <input style="background-color: #d9d9d9;" type="text" class="form-control">
+                        <input name="berat_bdn" style="background-color: #d9d9d9;" type="text" class="form-control">
                     </div>
                 </div>
                 <div class="row mt-4">
@@ -116,13 +116,13 @@
                         <span>Jenis Kelamin : </span>
                     </div>
                     <div class="col-xl-4">
-                        <input style="background-color: #d9d9d9;" type="text" class="form-control">
+                        <input name="jenis_kelamin" style="background-color: #d9d9d9;" type="text" class="form-control">
                     </div>
                     <div class="col-xl-3">
                         <span>Nomor Telp/Wa: </span>
                     </div>
                     <div class="col-xl-3">
-                        <input style="background-color: #d9d9d9;" type="text" class="form-control">
+                        <input name="no_telp" style="background-color: #d9d9d9;" type="text" class="form-control">
                     </div>
 
                 </div>
@@ -131,13 +131,13 @@
                         <span>Status : </span>
                     </div>
                     <div class="col-xl-4">
-                        <input style="background-color: #d9d9d9;" type="text" class="form-control">
+                        <input name="status" style="background-color: #d9d9d9;" type="text" class="form-control">
                     </div>
                     <div class="col-xl-3">
                         <span>Email : </span>
                     </div>
                     <div class="col-xl-3">
-                        <input style="background-color: #d9d9d9;" type="text" class="form-control">
+                        <input name="email" style="background-color: #d9d9d9;" type="text" class="form-control">
                     </div>
 
                 </div>
@@ -146,13 +146,13 @@
                         <span>Golongan Darah : </span>
                     </div>
                     <div class="col-xl-4">
-                        <input style="background-color: #d9d9d9;" type="text" class="form-control">
+                        <input name="golongan_darah" style="background-color: #d9d9d9;" type="text" class="form-control">
                     </div>
                     <div class="col-xl-3">
                         <span>Program Pelatihan yang Diminati : </span>
                     </div>
                     <div class="col-xl-3">
-                        <input style="background-color: #d9d9d9;" type="text" class="form-control">
+                        <input name="pelatihan" style="background-color: #d9d9d9;" type="text" class="form-control">
                     </div>
                 </div>
                 <div class="content row text-center mt-5" style="background-color: #d9d9d9; height:100px;">
