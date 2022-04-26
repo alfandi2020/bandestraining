@@ -10,6 +10,7 @@
     <style>
         .content {
             margin: 50px;
+            margin-top: -80px;
         }
         .col-xl-3{
             float: left;
@@ -38,11 +39,11 @@
     </style>
 
 <body>
-    <img src="<?= base_url() ?>assets/images/banner-pdf.jpg" alt="">
-    <div class="content">
+    <img style="position:absolute;z-index:1;" src="<?= base_url() ?>assets/images/banner-pdf.jpg" alt="">
     <div
-        style="margin-top:-200px;margin-left:500px;border-radius: 10px;border: black solid 4px;width:180px;height:200px;background-color:#d9d9d9">
+        style="margin-top:-80px;margin-left:570px;border: 2px solid black;border-radius: 10px;width:130px;height:160px;background-color:#d9d9d9">
     </div>
+    <div class="content">
         <div>
             <h4><b style="color: #302b63;">PERSONAL INFORMATION</b></h4>
             <div class="row">
@@ -181,10 +182,11 @@
 
                 </div>
             </div>
+            
+            <div class="row" style="margin-top: 289px;">
             <div style="background-color: #d9d9d9; height:50px;text-align:center">
                 <h4 class="mt-5">Lets join us to be ready as an staff airlines</h4>
             </div>
-            <div class="row">
                 <div class="col-xl-3">
                     <div style="background-color: black;width:200px;height:2px;margin-top:50px;">
                     </div>
@@ -193,7 +195,7 @@
                 <div class="col-xl-3">
                     <div style="background-color: black;width:200px;height:2px;margin-top:50px;">
                     </div>
-                    <p class="text-center" style="color: black;margin-left:40px;font-size:12px;margin-top:2px;"><b>Officer Signature</b></p>
+                    <p class="text-center" style="color: black;margin-left:50px;font-size:12px;margin-top:2px;"><b>Officer Signature</b></p>
                 </div>
                 <div class="col-xl-2">
                     <h4 style="font-size:12px;margin-top:40px;">THANK YOU <span style="color: #f2b950;">FOR REGISTRATION</span></h4>
@@ -201,6 +203,8 @@
             </div>
         </div>
     </div>
+    <img style="position:absolute;z-index:1;" src="<?= base_url() ?>assets/images/footer.png" alt="">
+
 </body>
 
 </html>
