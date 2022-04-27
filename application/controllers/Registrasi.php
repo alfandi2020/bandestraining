@@ -49,6 +49,7 @@ class Registrasi extends CI_Controller {
             // $name_file = 'pp';
             // $filename="/Applications/XAMPP/xamppfiles/htdocs/bandestraining/assets/$name_file.pdf";
             // $mpdf->Output($filename, 'F');
+            $this->load->library("Mailer");
         }
     }
     
