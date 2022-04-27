@@ -29,6 +29,7 @@
         .row {
             flex-direction: row;
             margin-bottom: 5px;
+            margin-top: 10px;
         }
 
         input {
@@ -39,9 +40,9 @@
     </style>
 
 <body>
-    <img style="position:absolute;z-index:1;" src="<?= base_url() ?>assets/images/banner-pdf.jpg" alt="">
+    <img style="position:absolute;" src="<?= base_url() ?>assets/images/banner-pdf.jpg" alt="">
     <div
-        style="margin-top:-80px;margin-left:570px;border: 2px solid black;border-radius: 10px;width:130px;height:160px;background-color:#d9d9d9">
+        style="z-index:2;margin-top:-80px;margin-left:570px;border: 2px solid black;border-radius: 10px;width:130px;height:160px;background-color:red">
     </div>
     <div class="content">
         <div>
@@ -183,7 +184,7 @@
                 </div>
             </div>
             
-            <div class="row" style="margin-top: 289px;">
+            <div class="row" style="margin-top: 259px;">
             <div style="background-color: #d9d9d9; height:50px;text-align:center">
                 <h4 class="mt-5">Lets join us to be ready as an staff airlines</h4>
             </div>

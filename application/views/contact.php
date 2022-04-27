@@ -38,7 +38,7 @@ Kota Tangerang Bandten</h5>
 
                             <div class="col-xl-4">
 
-                                <h5><i class="fa-solid fa-phone"></i> 0831111111 <br><i class="fa-solid fa-envelope"></i> cs@bandestraining.com</h5>
+                                <h5><i class="fa fa-phone"></i> 02159585665 <br><i class="fa fa-whatsapp"></i> 0817771091 <br><i class="fa fa-envelope-o"></i> cs@bandestraining.com</h5>
 
                             </div>
 
