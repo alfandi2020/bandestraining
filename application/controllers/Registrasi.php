@@ -45,11 +45,34 @@ class Registrasi extends CI_Controller {
             ];
             // $mpdf->WriteHTML($stylesheet, 1);
             $mpdf->WriteHTML($this->load->view('registrasi_view',$data,true));
-            $mpdf->Output();
-            // $name_file = 'pp';
-            // $filename="/Applications/XAMPP/xamppfiles/htdocs/bandestraining/assets/$name_file.pdf";
-            // $mpdf->Output($filename, 'F');
+            // $mpdf->Output();
+            $name_file = 'pp';
+            $filename="/Applications/XAMPP/xamppfiles/htdocs/bandestraining/assets/$name_file.pdf";
+            $mpdf->Output($filename, 'F');
+
             $this->load->library("Mailer");
+            $mail = $this->mailer->load();
+                $mail->isSMTP();
+                $mail->Host       = 'mail.bandestraining.com';
+                $mail->SMTPAuth   = true;
+                $mail->Username   = 'info@bandestraining.com';
+                $mail->Password   = 'k)7]yZZe5$TN';
+                $mail->SMTPSecure = 'ssl';
+                $mail->Port       = 465;
+                $mail->setFrom("info@bandestraining.com", "BAT");
+                $mail->addAddress("pandibl4530@gmail.com");
+                $mail->isHTML(true);
+                $mail->Subject = "tesxxxx";
+                $mail->Body    = "tesx";
+                $mail->addAttachment('/Applications/XAMPP/xamppfiles/htdocs/bandestraining/assets/pp.pdf');
+                if($mail->send()){
+                        // echo $mail->send();
+                    // $this->session->set_flashdata("pesan", '<div class="alert alert-success" id="alert">Silahkan verifikasi email anda.</div>');
+                    // redirect('register');
+                } else {
+                    $this->session->set_flashdata("pesan", '<div class="alert alert-danger" id="alert">Email not sent.</div>');
+                    redirect('register');
+                }
         }
     }
     

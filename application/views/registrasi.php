@@ -58,6 +58,8 @@
                 </div>
                 <div
                     style="border-radius: 10px;border: black solid 4px;width:180px;height:200px;position:absolute;right:200px;margin-top:100px;background-color:white">
+                    <img src="" id="output" alt="">
+
                 </div>
 
             </div>
@@ -81,6 +83,15 @@
                     </div>
                     <div class="col-xl-4">
                         <input name="alamat" style="background-color: #d9d9d9;" type="text" class="form-control">
+                    </div>
+                    <div class="col-xl-3">
+                        <span>Foto :</span>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="input-group mb-3">
+                            <input type="file" class="form-control" accept="image/*" onchange="loadFile(event)" id="inputGroupFile02">
+                            <label class="input-group-text" for="inputGroupFile02">Upload Foto</label>
+                        </div>
                     </div>
                 </div>
                 <div class="row mt-4">
@@ -146,7 +157,8 @@
                         <span>Golongan Darah : </span>
                     </div>
                     <div class="col-xl-4">
-                        <input name="golongan_darah" style="background-color: #d9d9d9;" type="text" class="form-control">
+                        <input name="golongan_darah" style="background-color: #d9d9d9;" type="text"
+                            class="form-control">
                     </div>
                     <div class="col-xl-3">
                         <span>Program Pelatihan yang Diminati : </span>
