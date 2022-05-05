@@ -57,14 +57,13 @@
                     <div class="shape-regis"></div>
                 </div>
                 <div
-                    style="border-radius: 10px;border: black solid 4px;width:180px;height:200px;position:absolute;right:200px;margin-top:100px;background-color:white">
-                    <img src="" id="output" alt="">
-
+                    style="border-radius: 10px;border: black solid 4px;width:157px;height:212px;position:absolute;right:200px;margin-top:80px;background-color:white">
+                    <img src="" id="output" alt="" style="max-width: 150px;">
                 </div>
 
             </div>
         </div>
-        <form action="<?= base_url('registrasi/x') ?>" method="POST">
+        <form action="<?= base_url('registrasi/x') ?>" method="POST" enctype="multipart/form-data">
             <div>
                 <h4><b style="color: #302b63;">PERSONAL INFORMATION</b></h4>
                 <div class="row">
@@ -89,7 +88,7 @@
                     </div>
                     <div class="col-xl-3">
                         <div class="input-group mb-3">
-                            <input type="file" class="form-control" accept="image/*" onchange="loadFile(event)" id="inputGroupFile02">
+                            <input type="file" name="foto" class="form-control" accept="image/*" onchange="loadFile(event)" id="inputGroupFile02">
                             <label class="input-group-text" for="inputGroupFile02">Upload Foto</label>
                         </div>
                     </div>
