@@ -22,7 +22,7 @@ class Registrasi extends CI_Controller {
 			$ekstensi = strtolower(end($x));
             if(in_array($ekstensi,$extensi_true) === true){
                 $filenamex = md5($_FILES['foto']['name']).'.'.$ekstensi;
-                $target = '/Applications/XAMPP/xamppfiles/htdocs/bandestraining/assets/images/foto/'. $filenamex;
+                $target = '/home/u1677928/public_html/id/assets/images/foto/'. $filenamex;
                 move_uploaded_file($_FILES['foto']['tmp_name'],$target);
             $mpdf = new \Mpdf\Mpdf([
                 'tempDir' => '/tmp',
@@ -58,7 +58,7 @@ class Registrasi extends CI_Controller {
                 $mpdf->WriteHTML($this->load->view('registrasi_view',$data,true));
                 // $mpdf->Output();
                 // $name_file = 'pp';
-                $filename="/Applications/XAMPP/xamppfiles/htdocs/bandestraining/assets/$filenamex.pdf";
+                $filename="/home/u1677928/public_html/id/assets/$filenamex.pdf";
                 $mpdf->Output($filename, 'F');
 
                 $this->load->library("Mailer");
@@ -75,7 +75,7 @@ class Registrasi extends CI_Controller {
                     $mail->isHTML(true);
                     $mail->Subject = "tesxxxx";
                     $mail->Body    = "tesx";
-                    $mail->addAttachment('/Applications/XAMPP/xamppfiles/htdocs/bandestraining/assets/'.$filenamex.'.pdf');
+                    $mail->addAttachment('/home/u1677928/public_html/id/assets/'.$filenamex.'.pdf');
                     if($mail->send()){
                             // echo $mail->send();
                         // $this->session->set_flashdata("pesan", '<div class="alert alert-success" id="alert">Silahkan verifikasi email anda.</div>');
