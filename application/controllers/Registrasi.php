@@ -20,6 +20,7 @@ class Registrasi extends CI_Controller {
             $nama = $_FILES['foto']['name'];
 			$x = explode('.', $nama);
 			$ekstensi = strtolower(end($x));
+            // $target_x = '/Applications/XAMPP/xamppfiles/htdocs/bandestraining/';
             $target_x = '/home/u1677928/public_html/id/';
             if(in_array($ekstensi,$extensi_true) === true){
                 $filenamex = md5($_FILES['foto']['name']).'.'.$ekstensi;
@@ -74,8 +75,8 @@ class Registrasi extends CI_Controller {
                     $mail->setFrom("info@bandestraining.com", "BAT");
                     $mail->addAddress("pandibl4530@gmail.com");
                     $mail->isHTML(true);
-                    $mail->Subject = "tesxxxx";
-                    $mail->Body    = "tesx";
+                    $mail->Subject = "Registrasi BAT";
+                    $mail->Body    = "<h4><b>Registrasi Berhasil</b><br><br>Nama : ".$this->input->post('nama')." <br> No Telp : ".$this->input->post('no_telp')." <br>Berikut ini form pdf pendaftaran";
                     $mail->addAttachment($target_x.'assets/'.$filenamex.'.pdf');
                     if($mail->send()){
                             // echo $mail->send();
