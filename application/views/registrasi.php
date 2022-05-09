@@ -2,6 +2,7 @@
     .bg-regis {
         background-color: #302b63;
         height: 340px;
+        width: 104%;
     }
 
     .logo-regis {
@@ -38,6 +39,7 @@
     <div class="content_wrap">
 
         <div class="content text-center">
+        <?= $this->session->flashdata('pesan'); ?>
             <div class="bg-regis">
                 <div class="logo-regis">
                     <img src="<?= base_url() ?>/assets/images/logo-regis.png" class="logo_main2" alt="">

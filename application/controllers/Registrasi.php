@@ -5,9 +5,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Registrasi extends CI_Controller {
 	// private $param;
 
-	// public function __construct() {
-		
-	// }
+        public function __construct() {
+            parent::__construct();
+            $this->load->library('session');
+        }
         function index(){
             $this->load->view('body/header');
             $this->load->view('registrasi');
@@ -80,15 +81,15 @@ class Registrasi extends CI_Controller {
                     $mail->addAttachment($target_x.'assets/'.$filenamex.'.pdf');
                     if($mail->send()){
                             // echo $mail->send();
-                        // $this->session->set_flashdata("pesan", '<div class="alert alert-success" id="alert">Silahkan verifikasi email anda.</div>');
-                        // redirect('register');
+                        $this->session->set_flashdata("pesan", '<div class="alert alert-success" id="alert">Registrasi Berhasil  '.$this->input->post('nama').'</div>');
+                        redirect('registrasi');
                     } else {
                         $this->session->set_flashdata("pesan", '<div class="alert alert-danger" id="alert">Email not sent.</div>');
-                        redirect('register');
+                        redirect('registrasi');
                     }
             }else{
                 $this->session->set_flashdata("pesan", '<div class="alert alert-danger" id="alert">Extensi yang diizinkan jpg,jpeg,png</div>');
-                redirect('register');
+                redirect('registrasi');
             }
         }
     }
