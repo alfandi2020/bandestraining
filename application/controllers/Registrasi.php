@@ -73,7 +73,7 @@ class Registrasi extends CI_Controller {
                     $mail->SMTPSecure = 'ssl';
                     $mail->Port       = 465;
                     $mail->setFrom("info@bandestraining.com", "BAT");
-                    $mail->addAddress("pandibl4530@gmail.com");
+                    $mail->addAddress("info@bandestraining.com");
                     $mail->isHTML(true);
                     $mail->Subject = "Registrasi BAT";
                     $mail->Body    = "<h4><b>Registrasi Berhasil</b><br><br>Nama : ".$this->input->post('nama')." <br> No Telp : ".$this->input->post('no_telp')." <br>Berikut ini form pdf pendaftaran";
