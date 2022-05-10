@@ -543,6 +543,11 @@ Samsung Galaxy
 		max-height:1.2em;
 		overflow:hidden;
 	}
+	.post_item_courses .post_category .text_post{/* xx*/
+		position: fixed;
+		margin-left: -50px;
+		width: 100px;
+	}
 	.post_item_courses .post_descr .post_price {
 		margin-top: 1.2em;
 	}
@@ -826,6 +831,17 @@ Very common low res
 	
 	.article_style_boxed .sidebar {
 		margin-top:10px;
+	}
+	.post_item_courses .post_category a{/* xx*/
+		position: fixed;
+		margin-left: -50px;
+		width: 100px;
+		margin-bottom: 100px;
+		margin-top: -30px;
+	}
+	.post_item_courses .post_category a h4{/* xx*/
+		margin-left: 50px;
+		width: 200px;
 	}
 	
 	.widget_area aside {

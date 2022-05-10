@@ -906,10 +906,10 @@
 																			<span class="post_price_period">monthly</span>
 
 																		</div> -->
-
+<br>
 																		<div class="post_category">
 
-																			<a style="color: black;" href="<?= base_url('home/q1')?>">Dangeraous Good (DG) <br>(Sylabus, Periode, Sertificate, Pricing (Subject To Change)</a>
+																			<a class="text_post" style="color: black;" href="<?= base_url('home/q1')?>">Dangeraous Good (DG) <br>(Sylabus, Periode, Sertificate, Pricing (Subject To Change)</a>
 
 																		</div>
 
