@@ -168,12 +168,12 @@
                             <div class="post_item post_item_courses even">
                                 <div
                                     class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
-                                    <div class="post_featured">
+                                    <div class="post_featured" style="margin-top: 120px;">
                                         <!-- <a href="paid-course.html">
 																		<img alt="" src="<?= base_url() ?>assets/images/avsec2.jpg">
 																	</a> -->
-                                        <div class="margin: 100px;">
-                                                                    <h3 style="color:#f9ad3b;text-align:center;"><b>KOMPETENSI KELULUSAN</b></h3>
+                                        <div class="text_kompetensi">
+                                                                    <h2 style="color:#f9ad3b;text-align:center;"><b>KOMPETENSI KELULUSAN</b></h2>
                                         </div>
                                         <!-- <h4 class="post_title">
 																		<a href="paid-course.html">Entrepreneurship 101: Who is your customer?</a>
