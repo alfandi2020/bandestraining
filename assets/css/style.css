@@ -1118,7 +1118,10 @@ label.required:after {
 	height:0;
 	clear:both;
 }
-
+.logo_about{
+	width: 150px;
+	margin-top: -50px;
+}
 
 /* Bookmarks */
 .menu_user_wrap .menu_user_nav > li.menu_user_bookmarks {
