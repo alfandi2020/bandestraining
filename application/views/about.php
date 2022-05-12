@@ -173,40 +173,32 @@
 																		<img alt="" src="<?= base_url() ?>assets/images/avsec2.jpg">
 																	</a> -->
                                         <div class="text_kompetensi">
-                                                                    <h2 style="color:#f9ad3b;text-align:center;"><b>KOMPETENSI KELULUSAN</b></h2>
+                                                                    <h3 style="color:#f9ad3b;text-align:center;font-size:42px;"><b>KOMPETENSI KELULUSAN</b>
+                                        </h3>
+                                        <ul>
+                                            <li>Lulusan memiliki pemahaman tentang fungsi dan tugas seorang staff penerbangan dalam pelayanan
+                                                penumpang di bandara
+                                            </li>
+                                            <li>
+                                                Lulusan memiliki keterampilan tentang bagaimana melakukan handling penumpang. bagasi, cargo dan pesawat
+                                                baik di Airside maupun Landside
+                                            </li>
+                                            <li>
+                                                Lulusan memiliki pengetahuan tentang peraturan dan prosedur dalama pelaksanaan pekerjaan pelayanan penerbangan
+                                            </li>
+                                            <li>
+                                                Lulusan mampu melakukan basic handling maupun cargo handling di Bandara dan di pesawat serta memiliki service
+                                                atitude yang baik dalam bertugas 
+                                            </li>
+                                            <li>
+                                                Lulusan mampu mengaplikasikan disiplin dan dasar pendidikan perilaku yang baik dalam lingkungan sekitar di kesehariannya
+                                            </li>
+                                            <li>
+                                                Memiliki penguasaan Safety, Security, dan service
+                                            </li>
+                                        </ul>
                                         </div>
-                                        <!-- <h4 class="post_title">
-																		<a href="paid-course.html">Entrepreneurship 101: Who is your customer?</a>
-																	</h4> -->
-                                        <!-- <div class="post_descr">
-																		<div class="post_price">
-																			<span class="post_price_value">$195</span><span class="post_price_period">monthly</span>
-																		</div> 
-																		<div class="post_category">
-																			<a href="product-category.html"><h4 style="color: white;">Dangeraous Good (DG)</h4></a>
-																		</div>
-																	</div> -->
                                     </div>
-                                    <!-- <div class="post_info_wrap info">
-																	<div class="info-back">
-																		<h4 class="post_title">
-																			DG
-																		</h4>
-																		<div class="post_descr">
-																			<p>
-																				<a href="paid-course.html">Quisque a nulla eget ante vestibulum lacinia eu quis massa.</a>
-																			</p> 
-																			<div class="post_buttons">
-																				<div class="post_button">
-																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">ON PROGRESS</a>
-																				</div>
-																				<div class="post_button">
-																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
-																				</div> 
-																			</div>
-																		</div>
-																	</div>
-																</div> -->
                                 </div>
                             </div>
                         </div>
