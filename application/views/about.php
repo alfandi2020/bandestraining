@@ -12,11 +12,140 @@
                     </div>
                 </div>
             </div>
-            <footer class="user_footer_wrap">
-                <div class="sc_section margin_bottom_1_imp sc_footer_custom_bg1">
-                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126925.64570604842!2d106.65347352872804!3d-6.2073489361454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a02695aaccb09%3A0x61dee98159fa3fe5!2sBandar%20Udara%20Internasional%20Soekarno%E2%80%93Hatta!5e0!3m2!1sid!2sid!4v1643602255457!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </footer>
+            <div class="sc_section accent_top bg_tint_light sc_bg1" data-animation="animated fadeInUp normal">
+								<div class="sc_section_overlay">
+									<div class="sc_section_content">
+										<div class="sc_content content_wrap margin_top_2_5em_imp margin_bottom_2_5em_imp">
+											<!-- <h2 class="sc_title sc_title_regular sc_align_center margin_top_0 margin_bottom_085em text_center">MANDATORI</h2> -->
+											<div class="sc_blogger layout_courses_3 template_portfolio sc_blogger_horizontal no_description">
+												<div class="isotope_wrap" data-columns="3">
+													<!-- Courses item -->
+													<div class="isotope_item isotope_item_courses isotope_column_2">
+														<div class="post_item post_item_courses odd">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured img">
+																	<a href="paid-course.html">
+																		<img alt="" src="<?= base_url()?>assets/images/avsec.jpg">
+																	</a>
+																	<!-- <h4 class="post_title">
+																		<a href="paid-course.html">Principles of Written English, Part 2</a>
+																	</h4> -->
+																	<div class="post_descr">
+																		<!-- <div class="post_price">
+																			<span class="post_price_value">$85</span>
+																			<span class="post_price_period">monthly</span>
+																		</div> -->
+																		<div class="post_category">
+																			<a href="product-category.html"><h4 style="color: white;">AVSEC</h4></a>
+																		</div>
+																	</div>
+																</div>
+																<div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			<a href="paid-course.html">AVSEC </a>
+																		</h4>
+																		<div class="post_descr">
+																			<!-- <p>
+																				<a href="paid-course.html">Nam id leo massa. Cras at condimentum nisi, vulputate ultrices turpis.</a>
+																			</p> -->
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small" data-toggle="collapse" href="#intial1" role="button" aria-expanded="false" aria-controls="collapseExample">INTIAL</a>
+																				</div>
+																				<div class="post_button">
+																					<a class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small" data-toggle="collapse" href="#recurent1" role="button" aria-expanded="false" aria-controls="collapseExample">RECURENT</a>
+																				</div>
+																			</div>
+																		</div>
+																		
+																	</div>
+																</div>
+															</div>
+															<div class="collapse" id="intial1">
+																	<div class="card card-body" style="border-radius: 10px;">
+																	<i class="fa fa-shield"></i> 
+																	</div>
+																</div>	
+															<div class="collapse" id="recurent1">
+																	<div class="card card-body" style="border-radius: 10px;">
+																	<i class="fa fa-plane"></i>
+																	</div>
+																</div>	
+														</div>
+													</div>
+													<!-- /Courses item -->
+													<!-- Courses item -->
+													<div class="isotope_item isotope_item_courses isotope_column_2">
+														<div class="post_item post_item_courses even">
+															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
+																<div class="post_featured">
+																	<!-- <a href="paid-course.html">
+																		<img alt="" src="<?= base_url() ?>assets/images/avsec2.jpg">
+																	</a> -->
+                                                                    <h4>Visi</h4>
+                                                                    <div>
+                                                                        <p>Menjadi lembaga pendidikan dan pelatihan calon tenaga airlines
+                                                                            yang menjadi pilihan terbaik indonesia.
+                                                                            ikut serta mempersiapkan tenaga berkualitas diseluruh daerah di indonesia 
+                                                                            yang mempunyai Bandara udara baik yang besar maupun yang sedang bertumbuh pembangunan nya.
+                                                                            memenuhi kebutuhan sumber daya manusia (SDM) khususnya di bidang (PASSENGER DAN CARGO HANDLING)
+                                                                        </p>
+                                                                    </div>
+                                                                    <h4>Misi</h4>
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li>Memberikan pendidikan penerbangan dengan mutu yang berkualitas dengan memnuhi standart
+                                                                                kualitas penerbangan yaitu safety, security quality and service dengan biaya pendidikan 
+                                                                                yang terjangkau.
+                                                                            </li>
+                                                                            <li>
+                                                                                Menyiapkan kebutuhan SDM di penerbangan yang mumpuni dan siap kerja bertaraf internasional
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+																	<!-- <h4 class="post_title">
+																		<a href="paid-course.html">Entrepreneurship 101: Who is your customer?</a>
+																	</h4> -->
+																	<!-- <div class="post_descr">
+																		<div class="post_price">
+																			<span class="post_price_value">$195</span><span class="post_price_period">monthly</span>
+																		</div> 
+																		<div class="post_category">
+																			<a href="product-category.html"><h4 style="color: white;">Dangeraous Good (DG)</h4></a>
+																		</div>
+																	</div> -->
+																</div>
+																<!-- <div class="post_info_wrap info">
+																	<div class="info-back">
+																		<h4 class="post_title">
+																			DG
+																		</h4>
+																		<div class="post_descr">
+																			<p>
+																				<a href="paid-course.html">Quisque a nulla eget ante vestibulum lacinia eu quis massa.</a>
+																			</p> 
+																			<div class="post_buttons">
+																				<div class="post_button">
+																					<a href="paid-course.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">ON PROGRESS</a>
+																				</div>
+																				<div class="post_button">
+																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+																				</div> 
+																			</div>
+																		</div>
+																	</div>
+																</div> -->
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- <a href="courses-streampage.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_menu sc_button_size_small aligncenter sc_button_iconed icon-graduation margin_top_1em margin_bottom_4 widht_12em">VIEW ALL COURSES</a> -->
+										</div>
+									</div>
+								</div>
+							</div>
             <!-- /Content -->
 			<!-- Partners footer -->
             	
