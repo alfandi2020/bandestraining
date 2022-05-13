@@ -181,9 +181,10 @@
 
 							<ul id="menu_main" class="menu_main_nav">
 
-                                <li class="menu-item  "><a href="<?= base_url()?>">Produk</a></li>
+                                <li class="menu-item  "><a href="<?= base_url()?>">Home</a></li>
+                                <li class="menu-item  "><a href="<?= base_url('product')?>">Produk</a></li>
 
-                                <li class="menu-item"><a href="<?= base_url()?>">Promembed</a></li>
+                                <li class="menu-item"><a href="<?= base_url('product')?>">Promembed</a></li>
 
                                 <li class="menu-item"><a href="<?= base_url('about')?>">About Us</a></li>
 

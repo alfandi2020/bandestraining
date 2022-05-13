@@ -5,7 +5,7 @@
 <div class="page_content_wrap">
     <div class="content_wrap">
         <div class="content">
-            <h1>About Us</h1>
+            <h1>Produk</h1>
             <hr>
             <!-- <h4> Operasional Gedung BAT</h4> -->
         </div>
@@ -174,7 +174,7 @@
 																	</a> -->
                                         <div class="text_kompetensi">
                                                                     <h3 style="color:#f9ad3b;text-align:center;font-size:42px;"><b>KOMPETENSI KELULUSAN</b>
-                                            </h3>
+                                        </h3>
                                         <ul>
                                             <li>Lulusan memiliki pemahaman tentang fungsi dan tugas seorang staff penerbangan dalam pelayanan
                                                 penumpang di bandara
@@ -197,15 +197,7 @@
                                                 Memiliki penguasaan Safety, Security, dan service
                                             </li>
                                         </ul>
-                                        <h4 style="color:#f9ad3b;font-size:35px;"><b>Kelebihan/Benefit yang diperoleh</b>
-                                            </h4>
-                                            <ul>
-                                                <li>Lembaga Pendidikan bekerjasama dengan Airlines</li>
-                                                <li>Lembaga pendidikan merupakan bagian dari Induk Perusahaan yang bergerak di pergudangan bandara/kargo</li>
-                                                <li>Siswa berkesempatan praktek kerja dan ditempatkan pada mitra kerja Lembaga Pendidikan</li>
-                                            </ul>
                                         </div>
-                                       
                                     </div>
                                 </div>
                             </div>
