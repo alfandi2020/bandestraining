@@ -121,7 +121,7 @@ class Registrasi extends CI_Controller {
                     $mail->Host       = 'mail.bandestraining.com';
                     $mail->SMTPAuth   = true;
                     $mail->Username   = 'info@bandestraining.com';
-                    $mail->Password   = 'k)7]yZZe5$TN';
+                    $mail->Password   = '+7!WX?B]tKh~';
                     $mail->SMTPSecure = 'ssl';
                     $mail->Port       = 465;
                     $mail->setFrom("info@bandestraining.com", "BAT");
