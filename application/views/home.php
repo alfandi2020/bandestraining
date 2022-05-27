@@ -604,7 +604,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="sc_section accent_top bg_tint_light sc_bg1" data-animation="animated fadeInUp normal">
+							<div c`lass="sc_section accent_top bg_tint_light sc_bg1" data-animation="animated fadeInUp normal">
 								<div class="sc_section_overlay">
 									<div class="sc_section_content">
 										<div class="sc_content content_wrap margin_top_2_5em_imp margin_bottom_2_5em_imp">

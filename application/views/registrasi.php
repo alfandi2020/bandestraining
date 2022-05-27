@@ -77,7 +77,56 @@
                     </div>
 
                 </div>
-
+                <?php 
+                    function getRomawi($bln){
+                        switch ($bln){
+                            case 1: 
+                                return "I";
+                                break;
+                            case 2:
+                                return "II";
+                                break;
+                            case 3:
+                                return "III";
+                                break;
+                            case 4:
+                                return "IV";
+                                break;
+                            case 5:
+                                return "V";
+                                break;
+                            case 6:
+                                return "VI";
+                                break;
+                            case 7:
+                                return "VII";
+                                break;
+                            case 8:
+                                return "VIII";
+                                break;
+                            case 9:
+                                return "IX";
+                                break;
+                            case 10:
+                                return "X";
+                                break;
+                            case 11:
+                                return "XI";
+                                break;
+                            case 12:
+                                return "XII";
+                                break;
+                        }
+                    }
+                    $db =  $this->db->query("SELECT MAX(no_bat) as no_bat FROM registrasi")->row_array();
+                    $nomor = $db['no_bat'];
+                    $nomor++;
+                    $nomor_t = sprintf("%03s", $nomor);;
+                    $bulan = date('n');
+                    $romawi = getRomawi($bulan);
+                    $tahun = date('Y');
+                ?>
+                <input type="hidden" name="no_regis" value="<?= $nomor_t.'/BAT/REG/'.$romawi.'/'.$tahun ?>">
                 <div class="row mt-4">
                     <div class="col-xl-2">
                         <span>Alamat Lengkap : </span>

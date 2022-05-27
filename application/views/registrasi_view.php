@@ -184,8 +184,12 @@
 
                 </div>
             </div>
-            
-            <div class="row" style="margin-top: 230px;">
+            <div class="row">
+            <div style="margin-left: 220px;margin-top:50px;">
+                   No Registrasi <?= $no_regis ?>
+            </div>
+            </div>
+            <div class="row" style="margin-top: 155px;">
             <div style="background-color: #d9d9d9; height:50px;text-align:center">
                 <h4 class="mt-5">Lets join us to be ready as an staff airlines</h4>
             </div>

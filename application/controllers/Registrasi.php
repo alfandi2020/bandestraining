@@ -14,6 +14,46 @@ class Registrasi extends CI_Controller {
             $this->load->view('registrasi');
             $this->load->view('body/footer');
         }
+        function getRomawi($bln){
+            switch ($bln){
+                case 1: 
+                    return "I";
+                    break;
+                case 2:
+                    return "II";
+                    break;
+                case 3:
+                    return "III";
+                    break;
+                case 4:
+                    return "IV";
+                    break;
+                case 5:
+                    return "V";
+                    break;
+                case 6:
+                    return "VI";
+                    break;
+                case 7:
+                    return "VII";
+                    break;
+                case 8:
+                    return "VIII";
+                    break;
+                case 9:
+                    return "IX";
+                    break;
+                case 10:
+                    return "X";
+                    break;
+                case 11:
+                    return "XI";
+                    break;
+                case 12:
+                    return "XII";
+                    break;
+            }
+        }
         function x(){
             $this->load->library('upload');
             // $stylesheet = file_get_contents('./assets/css/bootstrap.min.css');
@@ -54,13 +94,24 @@ class Registrasi extends CI_Controller {
                 "email" => $this->input->post('email'),
                 "golongan_darah" => $this->input->post('golongan_darah'),
                 "pelatihan" => $this->input->post('pelatihan'),
+                "no_regis" => $this->input->post('no_regis'),
                 "foto" => $filenamex
             ];
+            $db =  $this->db->query("SELECT MAX(no_bat) as no_bat FROM registrasi")->row_array();
+                    $nomor = $db['no_bat'];
+                    $nomor++;
+                    $nomor_t = sprintf("%03s", $nomor);;
+                    $bulan = date('n');
+                    $romawi = $this->getRomawi($bulan);
+                    $tahun = date('Y');
+            $insert = [
+                "no_bat" => $nomor,
+                "no_registrasi" => $nomor_t.'/BAT/REG/'.$romawi.'/'.$tahun
+            ];
+            $this->db->insert('registrasi',$insert);
 
-                // $mpdf->WriteHTML($stylesheet, 1);
                 $mpdf->WriteHTML($this->load->view('registrasi_view',$data,true));
                 // $mpdf->Output();
-                // $name_file = 'pp';
                 $filename=$target_x."/assets/$filenamex.pdf";
                 $mpdf->Output($filename, 'F');
 
