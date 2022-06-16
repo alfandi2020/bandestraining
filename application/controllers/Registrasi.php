@@ -81,19 +81,19 @@ class Registrasi extends CI_Controller {
                 'orientation' => 'P',
             ]);
             $data = [
-                "nama" => $this->input->post('nama'),
-                "alamat" => $this->input->post('alamat'),
-                "tgl_lahir" => $this->input->post('tgl_lahir'),
-                "agama" => $this->input->post('agama'),
-                "tinggi_bdn" => $this->input->post('tinggi_bdn'),
-                "berat_bdn" => $this->input->post('berat_bdn'),
-                "jenis_kelamin" => $this->input->post('jenis_kelamin'),
-                "no_telp" => $this->input->post('no_telp'),
-                "status" => $this->input->post('status'),
+                "nama" => strtoupper($this->input->post('nama')),
+                "alamat" => strtoupper($this->input->post('alamat')),
+                "tgl_lahir" => strtoupper($this->input->post('tgl_lahir')),
+                "agama" => strtoupper($this->input->post('agama')),
+                "tinggi_bdn" => strtoupper($this->input->post('tinggi_bdn')),
+                "berat_bdn" => strtoupper($this->input->post('berat_bdn')),
+                "jenis_kelamin" => strtoupper($this->input->post('jenis_kelamin')),
+                "no_telp" => strtoupper($this->input->post('no_telp')),
+                "status" => strtoupper($this->input->post('status')),
                 "email" => $this->input->post('email'),
-                "golongan_darah" => $this->input->post('golongan_darah'),
-                "pelatihan" => $this->input->post('pelatihan'),
-                "no_regis" => $this->input->post('no_regis'),
+                "golongan_darah" => strtoupper($this->input->post('golongan_darah')),
+                "pelatihan" => strtoupper($this->input->post('pelatihan')),
+                "no_regis" => strtoupper($this->input->post('no_regis')),
                 "foto" => $filenamex
             ];
             $db =  $this->db->query("SELECT MAX(no_bat) as no_bat FROM registrasi")->row_array();
