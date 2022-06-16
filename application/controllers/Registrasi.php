@@ -83,7 +83,7 @@ class Registrasi extends CI_Controller {
             $data = [
                 "nama" => strtoupper($this->input->post('nama')),
                 "alamat" => strtoupper($this->input->post('alamat')),
-                "tgl_lahir" => strtoupper($this->input->post('tgl_lahir')),
+                "tgl_lahir" => $this->input->post('tgl_lahir'),
                 "agama" => strtoupper($this->input->post('agama')),
                 "tinggi_bdn" => strtoupper($this->input->post('tinggi_bdn')),
                 "berat_bdn" => strtoupper($this->input->post('berat_bdn')),
