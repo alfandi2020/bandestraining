@@ -54,7 +54,7 @@
                 </div>
                 <div>
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $nama ?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?= $nama ?></div>
                     </div>
                     <!-- <input name="nama" value="<?= $nama ?>" type="text"
                         class="form-control"> -->
@@ -68,7 +68,7 @@
                 </div>
                 <div class="col-xl-4">
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $alamat ?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?=  $alamat?></div>
                     </div>
 
                     <!-- <input name="alamat" style="background-color: #d9d9d9;" type="text" class="form-control"> -->
@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-xl-4">
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $tgl_lahir ?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?= $tgl_lahir ?></div>
                     </div>
 
                     <!-- <input style="background-color: #d9d9d9;" type="date" class="form-control"> -->
@@ -91,7 +91,7 @@
                 <div class="col-xl-4">
                     <!-- <input style="background-color: #d9d9d9;" type="text" class="form-control"> -->
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $tinggi_bdn ?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?= $tinggi_bdn ?></div>
                     </div>
 
                 </div>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-xl-4">
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $agama ?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?= $agama ?></div>
                     </div>
                     <!-- <input style="background-color: #d9d9d9;" type="text" class="form-control"> -->
                 </div>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="col-xl-4">
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $berat_bdn?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?= $berat_bdn?></div>
                     </div>
                     <!-- <input style="background-color: #d9d9d9;" type="text" class="form-control"> -->
                 </div>
@@ -122,7 +122,7 @@
                 </div>
                 <div class="col-xl-4">
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $jenis_kelamin ?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?= $jenis_kelamin ?></div>
                     </div>
 
                     <!-- <input style="background-color: #d9d9d9;" type="text" class="form-control"> -->
@@ -132,7 +132,7 @@
                 </div>
                 <div class="col-xl-4">
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $no_telp ?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?= $no_telp ?></div>
                     </div>
 
                     <!-- <input style="background-color: #d9d9d9;" type="text" class="form-control"> -->
@@ -146,7 +146,7 @@
                 <div class="col-xl-4">
                     <!-- <input style="background-color: #d9d9d9;" type="text" class="form-control"> -->
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $status ?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?= $status ?></div>
                     </div>
 
                 </div>
@@ -156,7 +156,7 @@
                 <div class="col-xl-4">
                     <!-- <input style="background-color: #d9d9d9;" type="text" class="form-control"> -->
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $email ?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?= $email ?></div>
                     </div>
 
                 </div>
@@ -169,7 +169,7 @@
                 <div class="col-xl-4">
                     <!-- <input style="background-color: #d9d9d9;" type="text" class="form-control"> -->
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $golongan_darah ?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?= $golongan_darah ?></div>
                     </div>
 
                 </div>
@@ -179,17 +179,17 @@
                 <div class="col-xl-4">
                     <!-- <input style="background-color: #d9d9d9;" type="text" class="form-control"> -->
                     <div style="background-color: #d9d9d9;width:150px;height:20px;">
-                        <div style="font-size:12px;margin-left:5px;"><?= $pelatihan ?></div>
+                        <div style="font-size:12px;margin-left:5px;padding:5px;"><?= $pelatihan ?></div>
                     </div>
 
                 </div>
             </div>
             <div class="row">
-            <div style="margin-left: 220px;margin-top:50px;">
+            <div style="margin-left: 250px;margin-top:50px;">
                    No Registrasi <?= $no_regis ?>
             </div>
             </div>
-            <div class="row" style="margin-top: 155px;">
+            <div class="row">
             <div style="background-color: #d9d9d9; height:50px;text-align:center">
                 <h4 class="mt-5">Lets join us to be ready as an staff airlines</h4>
             </div>
@@ -209,7 +209,7 @@
             </div>
         </div>
     </div>
-    <img style="position:absolute;z-index:1;" src="<?= base_url() ?>assets/images/footer.png" alt="">
+    <!-- <img style="position:absolute;z-index:1;" src="<?= base_url() ?>assets/images/footer.png" alt=""> -->
 
 </body>
 

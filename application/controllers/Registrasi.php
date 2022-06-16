@@ -56,7 +56,6 @@ class Registrasi extends CI_Controller {
         }
         function x(){
             $this->load->library('upload');
-            // $stylesheet = file_get_contents('./assets/css/bootstrap.min.css');
             $extensi_true = array('png','jpg','jpeg');
             $nama = $_FILES['foto']['name'];
 			$x = explode('.', $nama);
@@ -98,7 +97,7 @@ class Registrasi extends CI_Controller {
                 "foto" => $filenamex
             ];
             $db =  $this->db->query("SELECT MAX(no_bat) as no_bat FROM registrasi")->row_array();
-                    $nomor = $db['no_bat'];
+            $nomor = $db['no_bat'];
                     $nomor++;
                     $nomor_t = sprintf("%03s", $nomor);;
                     $bulan = date('n');
@@ -111,6 +110,9 @@ class Registrasi extends CI_Controller {
             $this->db->insert('registrasi',$insert);
 
                 $mpdf->WriteHTML($this->load->view('registrasi_view',$data,true));
+                $mpdf->SetHTMLFooter('
+                <img style="margin-bottom: -34px;" src="assets/images/footer.png" alt="">
+                ');
                 // $mpdf->Output();
                 $filename=$target_x."/assets/$filenamex.pdf";
                 $mpdf->Output($filename, 'F');
