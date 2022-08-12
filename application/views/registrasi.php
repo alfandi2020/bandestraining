@@ -154,8 +154,14 @@
                     <div class="col-xl-3">
                         <span>Tinggi Badan : </span>
                     </div>
-                    <div class="col-xl-3">
-                        <input name="tinggi_bdn" style="background-color: #d9d9d9;" type="text" class="form-control">
+                    <div class="col-xl-1">
+                    <div class="input-group">
+                        <input type="text" style="background-color: #d9d9d9;" class="form-control" name="tinggi_bdn">
+                        <div class="input-group-append">
+                            <span class="input-group-text">cm</span>
+                        </div>
+                    </div>
+                        <!-- <input name="tinggi_bdn" style="background-color: #d9d9d9;" type="number" class="form-control"> -->
                     </div>
                 </div>
                 <div class="row mt-4">
@@ -177,7 +183,12 @@
                         <span>Jenis Kelamin : </span>
                     </div>
                     <div class="col-xl-4">
-                        <input name="jenis_kelamin" style="background-color: #d9d9d9;" type="text" class="form-control">
+                        <select name="jenis_kelamin" id="" class="form-control" style="background-color: #d9d9d9;">
+                            <option selected disabled>Pilih Jenis Kelamin</option>
+                            <option value="Laki-laki">Laki-laki</option>
+                            <option value="Perempuan">Perempuan</option>
+                        </select>
+                        <!-- <input name="jenis_kelamin" style="background-color: #d9d9d9;" type="text" class="form-control"> -->
                     </div>
                     <div class="col-xl-3">
                         <span>Nomor Telp/Wa: </span>
